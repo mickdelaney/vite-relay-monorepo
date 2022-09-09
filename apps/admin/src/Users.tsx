@@ -1,5 +1,4 @@
 import { graphql, useLazyLoadQuery } from "react-relay";
-import { UserItem } from "ui";
 import type { UsersQuery } from "./__generated__/UsersQuery.graphql";
 
 const query = graphql`
@@ -27,7 +26,7 @@ export function Users() {
     if (!u) {
       return null;
     }
-    return <UserItem key={u?.id} userRef={u} />;
+    return <div key={u?.id}>{u.name}</div>;
   });
 
   return <div>{rows}</div>;
