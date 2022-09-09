@@ -3,6 +3,7 @@
 
 ## Relay Error
 
+https://github.com/tobias-tengler/create-relay-app/blob/main/docs/vite-plugin-setup.md
 
 admin:dev: Failed to resolve import "./__generated__/UserItem_user.graphql" from "../../packages/ui/dist/index.mjs". Does the file exist?
 admin:dev: Failed to resolve import "./__generated__/UserItem_user.graphql" from "../../packages/ui/dist/index.mjs". Does the file exist?
