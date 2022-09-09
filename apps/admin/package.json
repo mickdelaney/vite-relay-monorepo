@@ -24,6 +24,7 @@
     "@types/react-relay": "^14.1.1",
     "@vitejs/plugin-react": "^2.1.0",
     "@rollup/plugin-graphql": "^1.1.0",
+    "babel-plugin-relay": "14.1.0",
     "eslint": "^8.23.0",
     "eslint-config-custom": "*",
     "tsconfig": "*",

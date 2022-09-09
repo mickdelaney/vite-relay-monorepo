@@ -1,10 +1,38 @@
 # `turborepo` kitchen sink starter
 
-This is an official Yarn v1 starter Turborepo with multiple meta-frameworks all working in harmony and sharing packages.
 
-## What's inside?
+## Relay Error
 
-This Turborepo includes the following packages and apps:
+
+admin:dev: Failed to resolve import "./__generated__/UserItem_user.graphql" from "../../packages/ui/dist/index.mjs". Does the file exist?
+admin:dev: Failed to resolve import "./__generated__/UserItem_user.graphql" from "../../packages/ui/dist/index.mjs". Does the file exist?
+admin:dev: 22:31:50 [vite] Internal server error: Failed to resolve import "./__generated__/UserItem_user.graphql" from "../../packages/ui/dist/index.mjs". Does the file exist?
+admin:dev:   Plugin: vite:import-analysis
+admin:dev:   File: /Users/one/kitchen-sink/packages/ui/dist/index.mjs
+admin:dev:   1  |  import _UserItem_user from "./__generated__/UserItem_user.graphql";
+admin:dev:      |                              ^
+admin:dev:   2  |  import RefreshRuntime from "/@react-refresh";
+admin:dev:   3  |  let prevRefreshReg;
+admin:dev:       at formatError (file:///Users/one/kitchen-sink/node_modules/vite/dist/node/chunks/dep-665b0112.js:40782:46)
+admin:dev:       at TransformContext.error (file:///Users/one/kitchen-sink/node_modules/vite/dist/node/chunks/dep-665b0112.js:40778:19)
+admin:dev:       at normalizeUrl (file:///Users/one/kitchen-sink/node_modules/vite/dist/node/chunks/dep-665b0112.js:37514:33)
+admin:dev:       at async TransformContext.transform (file:///Users/one/kitchen-sink/node_modules/vite/dist/node/chunks/dep-665b0112.js:37648:47)
+admin:dev:       at async Object.transform (file:///Users/one/kitchen-sink/node_modules/vite/dist/node/chunks/dep-665b0112.js:41031:30)
+admin:dev:       at async loadAndTransform (file:///Users/one/kitchen-sink/node_modules/vite/dist/node/chunks/dep-665b0112.js:37292:29)
+admin:dev: 22:31:53 [vite] Internal server error: Failed to resolve import "./__generated__/UserItem_user.graphql" from "../../packages/ui/dist/index.mjs". Does the file exist?
+admin:dev:   Plugin: vite:import-analysis
+admin:dev:   File: /Users/one/kitchen-sink/packages/ui/dist/index.mjs
+admin:dev:   1  |  import _UserItem_user from "./__generated__/UserItem_user.graphql";
+admin:dev:      |                              ^
+admin:dev:   2  |  import RefreshRuntime from "/@react-refresh";
+admin:dev:   3  |  let prevRefreshReg;
+admin:dev:       at formatError (file:///Users/one/kitchen-sink/node_modules/vite/dist/node/chunks/dep-665b0112.js:40782:46)
+admin:dev:       at TransformContext.error (file:///Users/one/kitchen-sink/node_modules/vite/dist/node/chunks/dep-665b0112.js:40778:19)
+admin:dev:       at normalizeUrl (file:///Users/one/kitchen-sink/node_modules/vite/dist/node/chunks/dep-665b0112.js:37514:33)
+admin:dev:       at async TransformContext.transform (file:///Users/one/kitchen-sink/node_modules/vite/dist/node/chunks/dep-665b0112.js:37648:47)
+admin:dev:       at async Object.transform (file:///Users/one/kitchen-sink/node_modules/vite/dist/node/chunks/dep-665b0112.js:41031:30)
+admin:dev:       at async loadAndTransform (file:///Users/one/kitchen-sink/node_modules/vite/dist/node/chunks/dep-665b0112.js:37292:29)
+
 
 ### Apps and Packages
 
